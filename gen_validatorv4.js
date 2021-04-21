@@ -9,18 +9,16 @@
         
     The Form validation script is distributed free from JavaScript-Coder.com
     For updates, please visit:
-    http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+    https://www.javascript-coder.com/html-form/javascript-form-validation.phtml
 
     Questions & comments please send to form.val (at) javascript-coder.com
     -------------------------------------------------------------------------  
 */
 
-function Validator(frmname)
-{
+function Validator(frmname) {
     this.validate_on_killfocus = false;
     this.formobj = document.forms[frmname];
-    if (!this.formobj)
-    {
+    if (!this.formobj) {
         alert("Error: couldnot get Form object " + frmname);
         return;
     }

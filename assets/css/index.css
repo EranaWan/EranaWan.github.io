@@ -1,0 +1,27 @@
+.loud-button {
+  appearance: none;
+  transition: border-color 0.2s ease;
+  background-color: #fae289;
+  border-radius: 3em;
+  color: #000000 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: bold;
+  height: 4.75em;
+  letter-spacing: 0.2em;
+  line-height: 4.75em;
+  outline: 0;
+  padding: 0 3em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.loud-button:hover {
+  background-color: #fff0b8;
+  transition: background-color 0.2s ease;
+}

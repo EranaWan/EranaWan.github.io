@@ -2592,7 +2592,7 @@ input, select, textarea {
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
-        
+
             .image.right.welcome {
                 width: 30%;
                 margin-right: 15%
@@ -2624,13 +2624,6 @@ input, select, textarea {
 
             }
 
-        .image.bio {
-            float: left; 
-            margin-right:10px; 
-            width: 20%;
-            max-width: 200px;
-            min-width: 150px;
-        } 
         @media only screen and (min-width: 481px) {
             .image.main.welcome{
                 display: none;
